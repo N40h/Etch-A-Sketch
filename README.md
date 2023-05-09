@@ -8,7 +8,6 @@ Simple Etch-a-sketch in Vanilla JS from the Odin Project curriculum.
   - [Screenshot](#screenshot)
   - [Links](#links)
 - [My process](#my-process)
-
   - [What I learned](#what-i-learned)
 
   ## Overview
