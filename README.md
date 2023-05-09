@@ -19,7 +19,7 @@ Simple Etch-a-sketch in Vanilla JS from the Odin Project curriculum.
 
   ### Links
 
-  - Live Site URL: [Live Site]()
+  - Live Site URL: [Live Site](https://splendid-lollipop-9e6382.netlify.app/)
 
   ## My Process
 
@@ -31,7 +31,7 @@ Simple Etch-a-sketch in Vanilla JS from the Odin Project curriculum.
 
   ### What I learned
 
-  How to made a grid using JS
+  How to make a grid using JS
 
   ```js
   function setupGrid(size) {
