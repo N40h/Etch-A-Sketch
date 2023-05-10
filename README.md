@@ -8,6 +8,7 @@ Simple Etch-a-sketch in Vanilla JS from the Odin Project curriculum.
   - [Screenshot](#screenshot)
   - [Links](#links)
 - [My process](#my-process)
+
   - [What I learned](#what-i-learned)
 
   ## Overview
@@ -49,21 +50,10 @@ Simple Etch-a-sketch in Vanilla JS from the Odin Project curriculum.
   How to create a rainbow random color hover
 
   ```js
-  function setRainbowColorHover() {
-  	const rainbowBtn = document.querySelector('#btnRainbow');
-
-  	rainbowBtn.addEventListener('click', () => {
-  		gridContainer.removeEventListener('mouseover', setBlackColorHover);
-
-  		gridContainer.addEventListener('mouseover', function (event) {
-  			if (event.target.classList.contains('grid-square')) {
-  				const randomR = Math.floor(Math.random() * 256);
-  				const randomG = Math.floor(Math.random() * 256);
-  				const randomB = Math.floor(Math.random() * 256);
-  				const randomColor = `rgb(${randomR},${randomG},${randomB})`;
-  				event.target.style.backgroundColor = randomColor;
-  			}
-  		});
-  	});
+  function getRandomRGB() {
+  	const randomR = Math.floor(Math.random() * 256);
+  	const randomG = Math.floor(Math.random() * 256);
+  	const randomB = Math.floor(Math.random() * 256);
+  	return `rgb(${randomR},${randomG},${randomB})`;
   }
   ```
